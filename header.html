@@ -1,0 +1,63 @@
+<head>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+</head>
+<style>
+    :root {
+    --bg-pink: #D02180;
+    }
+    body {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    body a {
+        text-decoration: none !important;
+        color: snow;
+    }
+
+
+    .txt-logo { font-family: 'Playball', cursive; }
+    .txt-center { text-align: center; }
+    .txt-right { text-align: right; }
+    .txt-black { color: black; }
+    .txt-pink { color: hotpink; }
+    .txt-gray { color: slategray; } /*seashell*/
+    .txt-silver { color: silver; }
+    .txt-logo { font-family: 'Playball', cursive; }
+    header {
+        background-color: var(--bg-pink); height: auto;
+    }
+
+    nav { 
+        background-color: whitesmoke;
+        height: 85px;}
+    nav a { color: black;}
+    nav ul { list-style: none; margin-top: 30px;}
+    nav li { 
+        display: inline; 
+        padding-right: 20px;
+    }
+    .login-btn {
+        background-color: var(--bg-pink); opacity: 1 !important;
+        border-radius: 5px; padding-left: 12px; padding-right: 12px; padding-top: 2px; padding-bottom: 2px; color: snow;
+    }
+</style>
+
+<div id="header">
+    <nav class="container-fluid">
+        <div class="logo txt-logo col-xs-4">
+            <h1><a href="https://janaeknight.github.io/whiteflowers-demo/">
+                <span class="txt-black">White </span>
+                <span class="txt-pink">Flowers</span>
+                </a>
+            </h1>
+        </div>
+        <div class="txt-right col-xs-8">
+            <ul>
+                <li><a href="https://janaeknight.github.io/whiteflowers-demo/">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#link">Services</a></li>
+                <li><a href="#link">Contact</a></li>
+                <li><a href="#link" class="login-btn"><i class="fa fa-user"></i>&nbsp;&nbsp;Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
