@@ -48,12 +48,11 @@ nav li {
 }
 .box1 p { padding-bottom: 50px; }
 .pk-box {
-    padding-top: 20px; padding-bottom: 20px;
-    padding-left: 30px; padding-right: 30px;
+    padding: 20px 30px;
     border-radius: 10px; font-size: 60px;
     background-color: var(--bg-pink); color: snow;
 }
-.box2 { padding-top: 55px; padding-bottom: 55px; }
+.box2 { padding: 55px 0; }
 .blogpost {
     padding-top: 20px; padding-bottom: 15px;
 }
@@ -62,13 +61,11 @@ nav li {
 }
 footer { 
     background-color: var(--bg-pink); color: snow;
-    padding-top: 25px; padding-bottom: 25px;
+    padding: 25px 0;
 }
 footer a { color: snow; }
 footer ul { list-style: none; padding: 0;}
 .media-links a {
-    padding-top: 1px; padding-bottom: 1px;
-    padding-left: 5px; padding-right: 5px;
-    font-size: 26px;
+    padding: 1px 5px; font-size: 26px;
     background-color: lightpink; border-radius: 100px;
 }
